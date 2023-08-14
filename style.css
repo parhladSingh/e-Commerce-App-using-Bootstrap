@@ -1,0 +1,78 @@
+.main{
+    background: url('/Images/homeImg1.png');
+    background-size: cover;
+    background-position: 70% 30%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+
+.btn1{
+    font-size: 50px;
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 410px;
+    left: 185px;
+}
+.btn1:hover{
+    background-color: gold;
+    color: black;
+}
+.product h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h6 span{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+h6 span:hover{
+    background-color: rgb(0, 255, 55);
+    cursor: pointer;
+    color: black;
+}
+.about h1{
+    font-weight: bolder;
+}
+.btn2{
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(255, 14, 183);
+    padding: 4px 16px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+}
+.contact input{
+    border: 1px solid gray;
+}
+.contact textarea{
+    border: 1px solid gray;
+}
+.sticky{
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    left: 0; 
+    width: 100%;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0);
+    z-index: 6;
+}
+.card{
+    box-shadow: 1px 1px 6px rgb(41, 39, 39);
+    padding-top: 5;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.card:hover{
+    box-shadow: 3px 3px 10px black,-3px -3px 10px black;
+}
